@@ -1,25 +1,69 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-@import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
-
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: row;
 }
+
+/* .field {
+  background-color: #fff352;
+  border: #21ebff 2px solid;
+  display: flex;
+  flex-direction: column;
+  border-radius: 50%;
+  align-items: center;
+  margin-right: 20px;
+  padding-top: 15px;
+  font-size: x-large;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 140px;
+  height: 140px;
+} */
+/* .label {
+  color: black;
+  font-weight: 700;
+  font-size: 15px;
+}
+.btn-start {
+  border-radius: 8px;
+  margin: 0 20px;
+  width: 140px;
+  height: 50px;
+  background-color: #fff352;
+  color: black;
+  text-transform: uppercase;
+  border: 2px solid #21ebff;
+  box-shadow: 5px 5px 1px 1px rgba(76, 86, 106, 0.2);
+  cursor: pointer;
+  font-size: large;
+  font-weight: 700;
+}
+
+.btn-start:disabled {
+  margin: 0 20px;
+  background-color: #ff9aff;
+  border: 2px solid #fff352;
+  color: black;
+  box-shadow: none;
+}
+.form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  color: white;
+  border-radius: 4px;
+  font-size: large;
+  font-weight: 700;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+}
+.timer {
+  display: flex;
+  margin-top: 20px;
+  width: 346px;
+  height: 72px;
+  gap: 24px;
+} */
