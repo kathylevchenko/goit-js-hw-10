@@ -7,11 +7,9 @@ form.addEventListener('submit', handleSubmit);
 function handleSubmit(event) {
   event.preventDefault();
 
-  const delayInput = this.elements.delay;
-  const delay = parseInt(delayInput.value);
-
-  const stateInput = this.elements.state;
-  const state = stateInput.value;
+  const delay = parseInt(this.elements.delay.value, 10);
+  const state = form.querySelector('input[name="state"]:checked').value;
+  
 
   let promise;
 
@@ -43,3 +41,5 @@ function handleSubmit(event) {
 
   event.currentTarget.reset();
 }
+
+
